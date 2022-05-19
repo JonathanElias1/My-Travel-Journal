@@ -1,0 +1,42 @@
+/* General */
+* {
+  box-sizing: 0;
+}
+body {
+  margin: 0;
+  padding: 0;
+  color: #2b283a;
+}
+
+section {
+  margin: 25px 0;
+}
+
+/* Navbar */
+.navbar-header {
+  background-color: rgb(240, 86, 86);
+  height: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+
+/* Cards */
+.card {
+  display: flex;
+  align-items: center;
+  grid-gap: 20px;
+  padding: 20px;
+  border-bottom: 1px solid #918e9b48;
+}
+.card-image {
+  max-width: 250px;
+  height: 336px;
+}
+
+/* Each country color test */
+.red {
+  color: rgb(240, 86, 86);
+}
